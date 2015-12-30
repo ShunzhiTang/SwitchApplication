@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class BraazilViewController: UIViewController {
 
     override func viewDidLoad() {
         

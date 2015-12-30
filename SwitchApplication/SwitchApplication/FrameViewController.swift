@@ -4,7 +4,6 @@
 //
 //  Created by tang on 15/12/30.
 //  Copyright © 2015年 shunzhitang. All rights reserved.
-//
 
 import UIKit
 
@@ -40,7 +39,6 @@ class FrameViewController: UIViewController {
         
         ChileBtn.translatesAutoresizingMaskIntoConstraints = false
         
-        
         self.view.addConstraint(NSLayoutConstraint(item: ChileBtn, attribute: NSLayoutAttribute.CenterX, relatedBy: NSLayoutRelation.Equal, toItem: self.view, attribute: NSLayoutAttribute.CenterX, multiplier: 1.0, constant: 0))
         
         self.view.addConstraint(NSLayoutConstraint(item: ChileBtn, attribute: NSLayoutAttribute.Top, relatedBy: NSLayoutRelation.Equal, toItem: brazilBtn, attribute: NSLayoutAttribute.Bottom, multiplier: 1.0, constant: 50))
@@ -48,17 +46,26 @@ class FrameViewController: UIViewController {
         self.view.addConstraint(NSLayoutConstraint(item: ChileBtn, attribute: NSLayoutAttribute.Height, relatedBy: NSLayoutRelation.Equal, toItem: nil, attribute: NSLayoutAttribute.NotAnAttribute, multiplier: 1.0, constant: 44))
         
         self.view.addConstraint(NSLayoutConstraint(item: ChileBtn, attribute: NSLayoutAttribute.Width, relatedBy: NSLayoutRelation.Equal, toItem: nil, attribute: NSLayoutAttribute.NotAnAttribute, multiplier: 1.0, constant: 200))
-        
     }
     
     @objc private func selectBrazil(){
         
         print("跳转到巴西")
+        
+        let vc = BraazilViewController()
+        
+        self.presentViewController(vc, animated: true, completion: nil)
+        
     }
     
     @objc private func selectChile(){
     
         print("智利")
+        
+        let vc = ChileViewController()
+        
+        self.presentViewController(vc, animated: true, completion: nil)
+        
     }
     
     // lazy loading   private lazy var loginButton: UIButton =
@@ -72,7 +79,6 @@ class FrameViewController: UIViewController {
         
         // 实现圆角
         button.layer.cornerRadius = 10
-        
         
         button.addTarget(self, action: "selectBrazil", forControlEvents: UIControlEvents.TouchUpInside)
         
