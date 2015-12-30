@@ -20,13 +20,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         self.window = UIWindow(frame: UIScreen.mainScreen().bounds);
         
-        self.window?.backgroundColor = UIColor.whiteColor()
+//        self.window?.backgroundColor = UIColor.whiteColor()
         
         self.window?.makeKeyAndVisible()
         
         var rootVC:UIViewController = ChileViewController()
-    
-        
         
         if(flag){
             rootVC = ViewController()
@@ -59,7 +57,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let profile:NSUserDefaults = NSUserDefaults.standardUserDefaults()
         
         hasBool = profile.boolForKey("flag")
-    
         return hasBool
     }
 }

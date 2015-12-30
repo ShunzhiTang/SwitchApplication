@@ -4,7 +4,7 @@
 //
 //  Created by tang on 15/12/30.
 //  Copyright © 2015年 shunzhitang. All rights reserved.
-//
+
 
 import UIKit
 
@@ -13,7 +13,6 @@ class ChileViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.orangeColor()
-        
         self.setUI()
     }
 
@@ -33,7 +32,7 @@ class ChileViewController: UIViewController {
         
         print("切换控制器")
         
-        let vc = ViewController()
+        let vc = FirstViewController()
         
         self.presentViewController(vc, animated: true, completion: nil)
         

@@ -13,6 +13,7 @@
 		2422DFC31C337F6600B40D85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2422DFC21C337F6600B40D85 /* Assets.xcassets */; };
 		2422DFC61C337F6600B40D85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2422DFC41C337F6600B40D85 /* LaunchScreen.storyboard */; };
 		2422DFD01C3380D000B40D85 /* ChileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2422DFCF1C3380D000B40D85 /* ChileViewController.swift */; };
+		2422DFD21C33BCBD00B40D85 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2422DFD11C33BCBD00B40D85 /* FirstViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2422DFC51C337F6600B40D85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2422DFC71C337F6600B40D85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2422DFCF1C3380D000B40D85 /* ChileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChileViewController.swift; sourceTree = "<group>"; };
+		2422DFD11C33BCBD00B40D85 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				2422DFBB1C337F6600B40D85 /* AppDelegate.swift */,
 				2422DFBD1C337F6600B40D85 /* ViewController.swift */,
 				2422DFCF1C3380D000B40D85 /* ChileViewController.swift */,
+				2422DFD11C33BCBD00B40D85 /* FirstViewController.swift */,
 				2422DFBF1C337F6600B40D85 /* Main.storyboard */,
 				2422DFC21C337F6600B40D85 /* Assets.xcassets */,
 				2422DFC41C337F6600B40D85 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				2422DFD01C3380D000B40D85 /* ChileViewController.swift in Sources */,
 				2422DFBE1C337F6600B40D85 /* ViewController.swift in Sources */,
 				2422DFBC1C337F6600B40D85 /* AppDelegate.swift in Sources */,
+				2422DFD21C33BCBD00B40D85 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +294,7 @@
 				2422DFCC1C337F6600B40D85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
