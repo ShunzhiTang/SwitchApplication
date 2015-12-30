@@ -1,7 +1,6 @@
 //
 //  ViewController.swift
 //  SwitchApplication
-//
 //  Created by tang on 15/12/30.
 //  Copyright © 2015年 shunzhitang. All rights reserved.
 
@@ -19,10 +18,8 @@ class BraazilViewController: UIViewController {
         
         print("hasBool =\(hasBool) " )
         
-        
         // 设置一个背景色
         self.view.backgroundColor = UIColor .darkGrayColor()
-        
         
         let tipLabl:UIButton = UIButton()
         
@@ -31,7 +28,6 @@ class BraazilViewController: UIViewController {
         tipLabl.setTitle("我是巴西的项目", forState: UIControlState.Normal)
         
         self.view.addSubview(tipLabl)
-        
         
         //创建一个button
         
@@ -43,7 +39,6 @@ class BraazilViewController: UIViewController {
         
         self.view.addSubview(firstBtn)
     }
-
     
      func firstClick(){
         

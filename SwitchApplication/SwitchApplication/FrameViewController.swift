@@ -1,7 +1,6 @@
 //
 //  FrameViewController.swift
 //  SwitchApplication
-//
 //  Created by tang on 15/12/30.
 //  Copyright © 2015年 shunzhitang. All rights reserved.
 

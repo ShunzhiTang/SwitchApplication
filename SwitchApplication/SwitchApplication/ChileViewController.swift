@@ -30,7 +30,6 @@ class ChileViewController: UIViewController {
         
         self.view.addSubview(switchBtn)
     }
-    
     func pushVC(){
         
         print("切换控制器")
