@@ -14,6 +14,7 @@
 		2422DFC61C337F6600B40D85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2422DFC41C337F6600B40D85 /* LaunchScreen.storyboard */; };
 		2422DFD01C3380D000B40D85 /* ChileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2422DFCF1C3380D000B40D85 /* ChileViewController.swift */; };
 		2422DFD21C33BCBD00B40D85 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2422DFD11C33BCBD00B40D85 /* FirstViewController.swift */; };
+		2422DFD41C33D31D00B40D85 /* FrameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2422DFD31C33D31D00B40D85 /* FrameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		2422DFC71C337F6600B40D85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2422DFCF1C3380D000B40D85 /* ChileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChileViewController.swift; sourceTree = "<group>"; };
 		2422DFD11C33BCBD00B40D85 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		2422DFD31C33D31D00B40D85 /* FrameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				2422DFBB1C337F6600B40D85 /* AppDelegate.swift */,
+				2422DFD31C33D31D00B40D85 /* FrameViewController.swift */,
 				2422DFBD1C337F6600B40D85 /* ViewController.swift */,
 				2422DFCF1C3380D000B40D85 /* ChileViewController.swift */,
 				2422DFD11C33BCBD00B40D85 /* FirstViewController.swift */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2422DFD01C3380D000B40D85 /* ChileViewController.swift in Sources */,
+				2422DFD41C33D31D00B40D85 /* FrameViewController.swift in Sources */,
 				2422DFBE1C337F6600B40D85 /* ViewController.swift in Sources */,
 				2422DFBC1C337F6600B40D85 /* AppDelegate.swift in Sources */,
 				2422DFD21C33BCBD00B40D85 /* FirstViewController.swift in Sources */,
